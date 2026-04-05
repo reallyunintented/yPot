@@ -1,0 +1,29 @@
+# Foundry build artifacts
+out/
+cache/
+broadcast/
+artifacts/
+lcov.info
+
+# Local deployment outputs
+deployments/*.json
+!deployments/.gitkeep
+
+# Environment and secrets
+.env
+.env.*
+!.env.testnet.example
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE directories
+.idea/
+.vscode/
+
+# Node
+node_modules/
